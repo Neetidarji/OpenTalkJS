@@ -10,7 +10,7 @@
 3. Now enter into the clone file by using command 📂
    ```bash
    cd OpenTalkJS
-4. Now open the editor ✍️
+4. Now open the editor ✍️ 
 5. Write the script in the script.js file  📝
    ```bash
    import ollama from "ollama";
