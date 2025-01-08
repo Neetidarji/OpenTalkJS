@@ -1,0 +1,61 @@
+I'd be happy to help you create API documentation. To get started, I'll need some information from you. Could you please provide the following details:
+
+1. **API Name**: What is the name of your API?
+2. **Description**: A brief description of your API.
+3. **Endpoints**: List all the endpoints (methods) provided by your API along with their parameters and request/response formats.
+4. **Request/Response Formats**: Specify what format each endpoint accepts for request and response data, e.g., JSON, XML, CSV, etc.
+5. **Authentication/Authorization**: If applicable, describe how authentication or authorization works on your API.
+6. **Security Features**: List any security features you've implemented, such as HTTPS, SSL certificates, rate limiting, IP blocking, etc.
+7. **Versioning**: Are there any version numbers for your API? If so, what are they?
+8. **Documentation Style**: What documentation style do you prefer (e.g., Swagger, RESTful, JSDoc)?
+9. **Additional Information**: Is there anything else you'd like to include in the documentation, such as usage examples or troubleshooting tips?
+
+Once I have this information, I'll be able to create a comprehensive API documentation for your reference.
+
+**Sample Format:**
+
+```plaintext
+# API Name
+
+## Description
+The [API Name] provides [brief description of the API]. It accepts [request format] and returns [response format].
+
+### Endpoints
+
+#### GET /endpoint1
+Returns `[Response format]`
+
+##### Parameters
+
+* `param1`: `[type, required]`
+* `param2`: `[type, optional]`
+
+#### POST /endpoint2
+Creates a new [resource type] with the following data:
+
+```json
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+```
+
+### Request/Response Formats
+
+* `application/json`
+* `text/plain`
+
+### Authentication/Authorization
+
+This API uses authentication with a simple username/password scheme.
+
+### Security Features
+
+* HTTPS
+* SSL certificates
+* Rate limiting (30 requests per second)
+
+### Versioning
+
+API version 1.0 is supported.
+```
